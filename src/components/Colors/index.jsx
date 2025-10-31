@@ -91,7 +91,7 @@ export default function Colors() {
                   selectedColor.id === color.id
                     ? 'ring-4 ring-blue-500 ring-offset-2 ring-offset-black'
                     : ''
-                }`}
+                } hover:scale-110 active:scale-95`}
                 onClick={() => setSelectedColor(color)}
                 aria-label={`Selecionar cor ${color.name}`}
               >
@@ -108,7 +108,7 @@ export default function Colors() {
           {models.map((model, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800 hover:border-gray-600 transition-all duration-300"
+              className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800 hover:border-gray-600 active:border-gray-500 transition-all duration-300 hover:bg-gray-800/50 active:bg-gray-700/50"
             >
               <div className="mb-4">
                 <svg
@@ -147,7 +147,7 @@ export default function Colors() {
           ))}
         </div>
         <div className="text-center mt-16">
-          <button className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-full text-md font-medium transition-all duration-300 mb-6 hover:scale-105 shadow-md shadow-blue-500/50 cursor-pointer">
+          <button className="bg-blue-700 hover:bg-blue-800 active:bg-blue-900 text-white px-8 py-4 rounded-full text-md font-medium transition-all duration-300 mb-6 hover:scale-105 active:scale-95 shadow-md shadow-blue-500/50 cursor-pointer">
             Compre agora a partir de R$ 9.999.99
           </button>
           <p className="text-gray-400 mb-8">ou 12x de R$ 1.999,99 sem juros</p>

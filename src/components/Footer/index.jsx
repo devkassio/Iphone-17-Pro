@@ -49,7 +49,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href="#"
-                      className="hover:text-white transition duration-300 cursor-pointer"
+                      className="hover:text-white active:text-blue-400 transition duration-300 cursor-pointer"
                     >
                       {link}
                     </a>
@@ -68,7 +68,7 @@ export default function Footer() {
             <div className="flex gap-6 text-sm text-gray-500">
               {buttonLinks.map((link, index) => (
                 <a
-                  className="hover:text-white transition duration-300 cursor-pointer"
+                  className="hover:text-white active:text-blue-400 transition duration-300 cursor-pointer"
                   href="#"
                   key={index}
                 >
@@ -77,11 +77,11 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <p className="mt-6 text-xs text-gray-500 text-center ">
-            Site criado para fins educacionais | developer by
+          <p className="mt-6 text-xs text-gray-500 text-center">
+            Site criado para fins educacionais | developer by{' '}
             <strong>
               <a
-                className="hover:text-white transition duration-300 cursor-pointer ml-1"
+                className="hover:text-white active:text-blue-400 transition duration-300 cursor-pointer whitespace-nowrap"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/devkassio"

@@ -29,12 +29,12 @@ export default function NavBar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-300 hover:text-white transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-white active:text-blue-400 transition-colors duration-200 font-medium"
               >
                 {link.label}
               </a>
             ))}
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-all duration-200 hover:scale-105 font-medium">
+            <button className="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-6 py-2 rounded-full transition-all duration-200 hover:scale-105 active:scale-95 font-medium">
               Comprar
             </button>
           </div>
@@ -94,14 +94,14 @@ export default function NavBar() {
                 key={link.href}
                 href={link.href}
                 onClick={handleLinkClick}
-                className="text-gray-300 hover:text-white hover:bg-gray-800 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+                className="text-gray-300 hover:text-white active:text-blue-400 hover:bg-gray-800 active:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
               >
                 {link.label}
               </a>
             ))}
-            <button
+            <button 
               onClick={handleLinkClick}
-              className="w-full mt-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full transition-all duration-200 font-medium"
+              className="w-full mt-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-4 py-2 rounded-full transition-all duration-200 active:scale-95 font-medium"
             >
               Comprar
             </button>
