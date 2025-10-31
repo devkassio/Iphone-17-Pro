@@ -24,14 +24,15 @@ export default function Intro() {
           Chip A18 Pro. Sistema de câmera Pro revolucionário.
         </p>
       </div>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 max-w-md mx-auto">
-          <button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/50">
-            Comprar agora
-          </button>
-          <button className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-black active:bg-gray-200 active:text-black px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95">
-            Saiba mais
-          </button>
-        </div>      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-auto max-w-6xl">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 max-w-md mx-auto">
+        <button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/50">
+          Comprar agora
+        </button>
+        <button className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-black active:bg-gray-200 active:text-black px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95">
+          Saiba mais
+        </button>
+      </div>{' '}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-auto max-w-6xl">
         {specs.map((spec, index) => (
           <div
             key={index}

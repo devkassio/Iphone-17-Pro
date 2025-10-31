@@ -99,7 +99,7 @@ export default function NavBar() {
                 {link.label}
               </a>
             ))}
-            <button 
+            <button
               onClick={handleLinkClick}
               className="w-full mt-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-4 py-2 rounded-full transition-all duration-200 active:scale-95 font-medium"
             >
