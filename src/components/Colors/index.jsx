@@ -50,7 +50,10 @@ export default function Colors() {
   );
 
   return (
-    <section id="cores" className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+    <section
+      id="cores"
+      className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">

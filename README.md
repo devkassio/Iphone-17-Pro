@@ -17,6 +17,7 @@ Uma landing page moderna e responsiva para o iPhone 17 Pro, desenvolvida com Rea
 Este projeto é uma **landing page interativa** que simula a página oficial de produto do iPhone 17 Pro da Apple. Foi desenvolvido como parte do meu aprendizado em **React.js**, inspirado pelas videoaulas do canal **DevClub** no YouTube.
 
 ### 🎓 **Motivação**
+
 - Aprofundar conhecimentos em **React.js** e **componentes funcionais**
 - Praticar **design responsivo** e **mobile-first**
 - Implementar **animações** e **interações** modernas
@@ -27,14 +28,16 @@ Este projeto é uma **landing page interativa** que simula a página oficial de 
 ## ✨ **Funcionalidades**
 
 ### 🌟 **Características Principais**
+
 - ✅ **Design Responsivo** - Adaptado para desktop, tablet e mobile
-- ✅ **Menu Mobile** - Hamburger menu animado para dispositivos móveis  
+- ✅ **Menu Mobile** - Hamburger menu animado para dispositivos móveis
 - ✅ **Seletor de Cores** - Visualização interativa das cores do iPhone
 - ✅ **Animações Suaves** - Transições e hover effects
 - ✅ **Performance Otimizada** - Lazy loading e otimizações de build
 - ✅ **Acessibilidade** - ARIA labels e navegação por teclado
 
 ### 📱 **Seções**
+
 - **Hero Section** - Apresentação principal com CTA
 - **Intro** - Especificações destacadas
 - **Design** - Sistema de câmeras avançado
@@ -47,12 +50,12 @@ Este projeto é uma **landing page interativa** que simula a página oficial de 
 
 <div align="center">
 
-| Tecnologia | Versão | Uso |
-|------------|--------|-----|
-| ![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=flat&logo=react&logoColor=white) | `19.1.1` | Biblioteca JavaScript |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.16-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | `4.1.16` | Framework CSS |
-| ![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat&logo=vite&logoColor=white) | `Latest` | Build tool |
-| ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deploy-222?style=flat&logo=github&logoColor=white) | `-` | Hospedagem |
+| Tecnologia                                                                                                            | Versão   | Uso                   |
+| --------------------------------------------------------------------------------------------------------------------- | -------- | --------------------- |
+| ![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=flat&logo=react&logoColor=white)                      | `19.1.1` | Biblioteca JavaScript |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.16-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | `4.1.16` | Framework CSS         |
+| ![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat&logo=vite&logoColor=white)                         | `Latest` | Build tool            |
+| ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deploy-222?style=flat&logo=github&logoColor=white)          | `-`      | Hospedagem            |
 
 </div>
 
@@ -61,18 +64,21 @@ Este projeto é uma **landing page interativa** que simula a página oficial de 
 ## 🚀 **Como Executar o Projeto**
 
 ### 📋 **Pré-requisitos**
+
 - Node.js (versão 18 ou superior)
 - npm ou yarn
 
 ### 💻 **Instalação**
 
 1️⃣ **Clone o repositório**
+
 ```bash
 git clone https://github.com/kassi/Iphone-17-Pro.git
 cd Iphone-17-Pro
 ```
 
 2️⃣ **Instale as dependências**
+
 ```bash
 npm install
 # ou
@@ -80,18 +86,21 @@ yarn install
 ```
 
 3️⃣ **Execute o projeto**
+
 ```bash
 npm run dev
-# ou  
+# ou
 yarn dev
 ```
 
 4️⃣ **Acesse no navegador**
+
 ```
 http://localhost:5173
 ```
 
 ### 🏗️ **Build para Produção**
+
 ```bash
 npm run build
 npm run preview
@@ -128,14 +137,16 @@ Iphone-17-Pro/
 ## 🎨 **Design e UX**
 
 ### 🎯 **Decisões de Design**
+
 - **Paleta de Cores** - Tons escuros com destaques em azul e roxo
 - **Tipografia** - Fontes modernas e hierarquia visual clara
 - **Layout** - Grid responsivo com mobile-first approach
 - **Animações** - Micro-interações para melhor UX
 
 ### 📱 **Responsividade**
+
 - **Mobile** - 320px até 768px
-- **Tablet** - 768px até 1024px  
+- **Tablet** - 768px até 1024px
 - **Desktop** - 1024px ou superior
 
 ---
@@ -145,6 +156,7 @@ Iphone-17-Pro/
 Este projeto utiliza **GitHub Actions** para deploy automático no **GitHub Pages**.
 
 ### 🚀 **Workflow**
+
 1. Push para branch `main`
 2. GitHub Actions executa o build
 3. Deploy automático para GitHub Pages
@@ -167,6 +179,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 ## 🎓 **Aprendizados**
 
 ### 💡 **O que Aprendi**
+
 - ✅ **Hooks do React** - useState, useMemo, useEffect
 - ✅ **Componentização** - Criação de componentes reutilizáveis
 - ✅ **Responsividade** - Mobile-first com Tailwind CSS
@@ -175,6 +188,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 - ✅ **Boas Práticas** - Estrutura de projeto e código limpo
 
 ### 🔄 **Próximos Passos**
+
 - [ ] Adicionar mais animações com Framer Motion
 - [ ] Implementar tema claro/escuro
 - [ ] Adicionar formulário de contato funcional
@@ -186,11 +200,13 @@ Contribuições são sempre bem-vindas! Para contribuir:
 ## 🙏 **Agradecimentos**
 
 ### 🎯 **Créditos Especiais**
+
 - **[DevClub](https://www.youtube.com/@DevClub)** - Canal no YouTube que inspirou este projeto
 - **Apple Inc.** - Design e imagens (uso educacional)
 - **Comunidade React** - Documentação e recursos
 
 ### 📚 **Recursos Educacionais**
+
 - [DevClub no YouTube](https://www.youtube.com/@DevClub)
 - [Documentação do React](https://react.dev/)
 - [Documentação do Tailwind CSS](https://tailwindcss.com/)
@@ -202,6 +218,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ### ⚠️ **Disclaimer**
+
 Este é um projeto educacional sem fins comerciais. Todas as imagens e marcas da Apple são propriedade da Apple Inc. O projeto não possui afiliação oficial com a Apple Inc.
 
 ---

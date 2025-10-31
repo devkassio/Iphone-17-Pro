@@ -24,7 +24,10 @@ export default function Highlights() {
   ];
 
   return (
-    <section className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8" id="design">
+    <section
+      className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8"
+      id="design"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
