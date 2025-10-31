@@ -6,7 +6,7 @@
 
 Uma landing page moderna e responsiva para o iPhone 17 Pro, desenvolvida com React.js e Tailwind CSS.
 
-[🚀 **Ver Demo**](https://kassi.github.io/Iphone-17-Pro/) • [📝 **Documentação**](#-funcionalidades) • [🐛 **Reportar Bug**](https://github.com/kassi/Iphone-17-Pro/issues)
+[🚀 **Ver Demo**](https://devkassio.github.io/Iphone-17-Pro/) • [📝 **Documentação**](#-funcionalidades) • [🐛 **Reportar Bug**](https://github.com/devkassio/Iphone-17-Pro/issues)
 
 </div>
 
@@ -73,7 +73,7 @@ Este projeto é uma **landing page interativa** que simula a página oficial de 
 1️⃣ **Clone o repositório**
 
 ```bash
-git clone https://github.com/kassi/Iphone-17-Pro.git
+git clone https://github.com/devkassio/Iphone-17-Pro.git
 cd Iphone-17-Pro
 ```
 
@@ -160,7 +160,7 @@ Este projeto utiliza **GitHub Actions** para deploy automático no **GitHub Page
 1. Push para branch `main`
 2. GitHub Actions executa o build
 3. Deploy automático para GitHub Pages
-4. Site disponível em: https://kassi.github.io/Iphone-17-Pro/
+4. Site disponível em: https://devkassio.github.io/Iphone-17-Pro/
 
 ---
 
@@ -225,7 +225,7 @@ Este é um projeto educacional sem fins comerciais. Todas as imagens e marcas da
 
 <div align="center">
 
-**Desenvolvido com ❤️ por [Kássio Barros](https://github.com/kassi)**
+**Desenvolvido com ❤️ por [Kássio Barros](https://github.com/devkassio)**
 
 [⬆ Voltar ao topo](#-iphone-17-pro---landing-page)
 
