@@ -24,10 +24,10 @@ export default function Highlights() {
   ];
 
   return (
-    <section className="bg-black py-20 px-6" id="design">
+    <section className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8" id="design">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className=" text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
             Design revolucionário
           </h2>
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto">
@@ -60,7 +60,7 @@ export default function Highlights() {
             </p>
           </div>
         </div>
-        <div className="bg-gray-900 rounded-3xl p-12 mb-16" id="performance">
+        <div className="bg-gray-900 rounded-3xl p-12 mb-30" id="performance">
           <h3 className="text-4xl font-bold mb-6 text-gradient ">A18 Pro</h3>
           <p className="mb-2 text-gray-300 text-md">
             O chip mais avançado de todos os tempos.
@@ -87,10 +87,10 @@ export default function Highlights() {
             </li>
           </ul>
         </div>
-        <div className="mb-16" id="camera">
+        <div id="camera">
           <div className="text-center mb-8">
             <h3 className="text-4xl font-bold mb-6 text-gradient">
-              Sistema de Câmeras avançado
+              Sistema de Câmeras Avançado
             </h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,8 +102,12 @@ export default function Highlights() {
                 <span className={`text-3xl font-bold mb-2 ${spec.color}`}>
                   {spec.value}
                 </span>
-                <h4 className="text-lg font-semibold text-white mb-2">{spec.label}</h4>
-                <p className="text-sm text-gray-400 text-center">{spec.description}</p>
+                <h4 className="text-lg font-semibold text-white mb-2">
+                  {spec.label}
+                </h4>
+                <p className="text-sm text-gray-400 text-center">
+                  {spec.description}
+                </p>
               </div>
             ))}
           </div>

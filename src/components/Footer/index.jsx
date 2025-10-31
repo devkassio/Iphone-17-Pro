@@ -78,7 +78,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="mt-6 text-xs text-gray-500 text-center ">
-            Site criado para fins educacionais | Desenvolvido por{' '}
+            Site criado para fins educacionais | devolper by
             <strong>
               <a
                 className="hover:text-white transition duration-300 cursor-pointer"

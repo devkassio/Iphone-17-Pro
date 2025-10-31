@@ -1,7 +1,7 @@
-import { useState, useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import iphoneBlue from '../../assets/iphone-blue.jpg';
-import iphoneSilver from '../../assets/iphone-silver.jpg';
 import iphoneOrange from '../../assets/iphone-orange.jpg';
+import iphoneSilver from '../../assets/iphone-silver.jpg';
 
 export default function Colors() {
   const colors = [
@@ -44,48 +44,50 @@ export default function Colors() {
 
   const [selectedColor, setSelectedColor] = useState(colors[0]);
 
-  const currentColor = useMemo(() => 
-    colors.find(color => color.id === selectedColor.id), 
+  const currentColor = useMemo(
+    () => colors.find(color => color.id === selectedColor.id),
     [selectedColor.id]
   );
 
   return (
-    <section id="cores" className="bg-black py-20 px-8">
+    <section id="cores" className="bg-black py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-5">
-          <h2 className="text-5xl md:text-6xl font-bold mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
             Escolha sua cor
           </h2>
-          <p className="text-xl text-gray-400">
+          <p className="text-lg sm:text-xl text-gray-400">
             Três cores para escolher: Titânio, Titânio Laranja e Titânio Natural
           </p>
         </div>
-        <div className="flex justify-center mb-12">
-          <div className="relative w-full max-w-3xl">
-            <div className="relative flex items-center justify-center min-h-[400px]">
+        <div className="flex justify-center mb-8 sm:mb-12">
+          <div className="relative w-full max-w-2xl lg:max-w-3xl">
+            <div className="relative flex items-center justify-center min-h-[300px] sm:min-h-[400px]">
               <img
                 src={currentColor.image}
                 alt={`iPhone 17 Pro na cor ${currentColor.name}`}
-                className="max-w-full max-h-[500px] mx-auto"
+                className="max-w-full max-h-[300px] sm:max-h-[500px] mx-auto object-contain"
                 loading="lazy"
               />
             </div>
             <div className="absolute bottom-3 left-0 right-0 text-center">
               <div className="py-4 px-8 rounded-full backdrop-blur-md bg-black/40 inline-block">
-                <h3 className="font-semibold">
-                  {currentColor.name}
-                </h3>
+                <h3 className="font-semibold">{currentColor.name}</h3>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 sm:mb-16">
             {colors.map(color => (
               <button
                 key={color.id}
-                className={`relative w-24 h-24 rounded-full cursor-pointer transition-all duration-300 ${color.colorClass} ${
-                  selectedColor.id === color.id ? 'ring-4 ring-blue-500 ring-offset-2 ring-offset-black' : ''
+                className={`relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full cursor-pointer transition-all duration-300 ${
+                  color.colorClass
+                } ${
+                  selectedColor.id === color.id
+                    ? 'ring-4 ring-blue-500 ring-offset-2 ring-offset-black'
+                    : ''
                 }`}
                 onClick={() => setSelectedColor(color)}
                 aria-label={`Selecionar cor ${color.name}`}

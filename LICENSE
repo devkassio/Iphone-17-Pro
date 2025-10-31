@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Kássio Barros 
+Copyright (c) 2025 Kássio Barros - Projeto iPhone 17 Pro Landing Page
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Créditos e Reconhecimentos
+
+Este projeto foi desenvolvido como parte do aprendizado em React.js, inspirado por videoaulas do canal **DevClub** no YouTube.
+
+### 🎓 Agradecimentos Especiais:
+- **DevClub** - Canal no YouTube que forneceu a base educacional para este projeto
+- **Apple Inc.** - Pelas imagens e design inspiracional do iPhone (usado apenas para fins educacionais)
+
+### ⚠️ Disclaimer:
+- Este é um projeto educacional sem fins comerciais
+- Todas as imagens e marcas da Apple são propriedade da Apple Inc.
+- O projeto não possui afiliação oficial com a Apple Inc.
+- Desenvolvido exclusivamente para fins de aprendizado e portfólio
